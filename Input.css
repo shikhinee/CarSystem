@@ -1,0 +1,50 @@
+.form-container {
+    width: 280px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #c42727;
+    border-radius: 5px;
+    background-color: #ff9999;
+}
+
+.form-container > form {
+    text-align: center;
+}
+
+.form-container > form > input[type=text] {
+    margin: 5px;
+    text-align: center;
+    border: 1px solid #c42727;
+    height: 40px;
+    border-radius: 20px;
+    color: black;
+    background-color: honeydew;
+}
+
+.form-container > form > input[type=text]:focus {
+    border: 1px solid honeydew;
+}
+
+.form-container > form > button {
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #c42727;
+    color: white;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.form-container > form > button:hover {
+    border: 1px solid #c42727;
+    border-radius: 5px;
+    background-color: honeydew;
+    color: #c42727;
+    box-shadow: 0 5px 5px 0;
+}
+
+.form-container > form > button:active {
+    border: 1px solid honeydew;
+    background-color: honeydew;
+    color: #ff9999;
+}

@@ -1,0 +1,20 @@
+.Card {
+    display: inline-block;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+    padding-top: 10px;
+    background-color: #c42727;
+    color: White;
+    text-align: center;
+    border: 1px solid #ff9999;
+    border-radius: 10px;
+    transition-duration: 300ms;
+}
+
+.Card:hover {
+    background-color: #ff9999;
+    color: black;
+    border-color: #c42727;
+    border-radius: 25px;
+}
